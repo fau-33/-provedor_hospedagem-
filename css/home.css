@@ -1,0 +1,63 @@
+/* Estilos Globais */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.limitar-secao {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* Topo da página */
+.container-topo {
+  position: relative;
+  padding: 35px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topo-logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.topo-logo img {
+  width: 80px;
+}
+
+.topo-logo h1 {
+  font-size: 32px;
+  font-weight: 900;
+  color: #233032;
+}
+
+.topo-logo p {
+  color: #2f86d6;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.topo-links ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.topo-links a {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #233032;
+  transition: color 0.3s;
+}
+
+.topo-links a:hover {
+  color: #2f86d6;
+}
