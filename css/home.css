@@ -61,3 +61,37 @@
 .topo-links a:hover {
   color: #2f86d6;
 }
+
+/* Banner da página */
+.secao-banner {
+  background-color: #2f86d6;
+}
+
+.container-banner {
+  position: relative;
+  padding: 180px 0;
+}
+
+.container-banner div {
+  color: #fff;
+  width: 470px;
+}
+
+.container-banner div p {
+  font-size: 16px;
+  line-height: 26px;
+  word-spacing: 3px;
+}
+
+.container-banner div h2 {
+  font-size: 28px;
+  line-height: 40px;
+  margin: 20px 0px;
+}
+
+.container-banner img {
+  width: 50%;
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
