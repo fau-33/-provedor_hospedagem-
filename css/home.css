@@ -141,3 +141,46 @@
 .container-primeiro-anuncio a span {
   margin-left: 30px;
 }
+
+/* Seção Informações */
+.secao-informacoes {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.secao-informacoes h2 {
+  width: 900px;
+  font-size: 32px;
+  margin: 0px auto 60px;
+}
+
+.secao-informacoes h2 span {
+  color: #2f86d6;
+}
+
+.container-informacoes {
+  position: relative;
+  height: 240px;
+}
+
+.container-informacoes div {
+  position: absolute;
+  width: 33%;
+  top: 0;
+}
+
+.card2 {
+  left: 343px;
+}
+
+.card3 {
+  right: 0;
+}
+
+.container-informacoes div img {
+  width: 100px;
+}
+
+.container-informacoes div h3 {
+  margin: 20px;
+}
