@@ -9,12 +9,12 @@
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>>AlfaTech</title>
+    <title>AlfaTech</title>
     <link rel="stylesheet" href="./css/home.css" />
   </head>
   <body>
     <!-- Topo da página -->
-    <div>
+    <header>
       <div class="container-topo limitar-secao">
         <div class="topo-logo">
           <img src="./assets/logo-icone.png" alt="Logo AlfaTech" />
@@ -23,19 +23,26 @@
             <p>Soluções em hospedagem</p>
           </div>
         </div>
-        <div class="topo-links">
+        <nav class="topo-links">
           <ul>
             <li><a href="#informacoes">INFORMAÇÕES</a></li>
             <li><a href="#planos">PLANOS</a></li>
             <li><a href="tabeladeprecos.html">PREÇOS</a></li>
             <li><a href="#contato">CONTATO</a></li>
           </ul>
+        </nav>
+        <!-- Hamburger Menu -->
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
         </div>
       </div>
-    </div>
+    </header>
+
     <!-- Conteúdo principal da página -->
-    <div>
-      <div class="secao-banner">
+    <main>
+      <section class="secao-banner">
         <div class="container-banner limitar-secao">
           <div>
             <p>Simples - Fácil de usar - 10x mais rápido!</p>
@@ -47,132 +54,140 @@
           </div>
           <img src="./assets/imagem-banner.png" alt="Banner AlfaTech" />
         </div>
-      </div>
-    </div>
-    <!-- Seção Primeiro Anúncio -->
-    <div class="secao-primeiro-anuncio">
-      <div class="container-primeiro-anuncio limitar-secao">
-        <div>
-          <h2>Hospede o seu site por apenas R$29 por mês</h2>
-          <p>Também temos planos gratuitos. Adquira já o seu.</p>
+      </section>
+
+      <!-- Seção Primeiro Anúncio -->
+      <section class="secao-primeiro-anuncio">
+        <div class="container-primeiro-anuncio limitar-secao">
+          <div>
+            <h2>Hospede o seu site por apenas R$29 por mês</h2>
+            <p>Também temos planos gratuitos. Adquira já o seu.</p>
+          </div>
+          <a href="tabeladeprecos.html">
+            <img src="./assets/icone-foguete.png" alt="Foguete" />
+            <span>TABELA DE PREÇOS</span>
+          </a>
         </div>
-        <a href="tabeladeprecos.html">
-          <img src="./assets/icone-foguete.png" alt="Foguete" />
-          <span>TABELA DE PREÇOS</span>
-        </a>
-      </div>
-    </div>
-    <!-- Seção Informações -->
-    <div id="informacoes" class="secao-informacoes">
-      <h2>
-        Existem diversos serviços de hospedagem de sites. Porque você deve
-        <span>nos escolher?</span>
-      </h2>
-      <div class="container-informacoes limitar-secao">
-        <div>
-          <img src="./assets/icone-engrenagens.png" alt="ícone" />
-          <h3>Fácil de configurar</h3>
-          <p>
-            Facilmente configurável em plataformas CMS populares - Wordpress,
-            Joomia...
-          </p>
-        </div>
-        <div class="card2">
-          <img src="./assets/cloud-icone.png" alt="ícone" />
-          <h3>Servidores 100% Online</h3>
-          <p>
-            Facilmente configurável em plataformas CMS populares - Wordpress,
-            Joomia...
-          </p>
-        </div>
-        <div class="card3">
-          <img src="./assets/icone-suporte.png" alt="icone" />
-          <h3>Suporte 24/7</h3>
-          <p>
-            Facilmente configurável em plataformas CMS populares - Wordpress,
-            Joomia...
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- Seção Planos -->
-    <div id="planos" class="secao-planos">
-      <h2>
-        Pague <span>somente</span> pelo que for usar. Sem cobranças adicionais!
-      </h2>
-      <table>
-        <thead>
-          <tr>
-            <th>
-              <h3>PESSOAL</h3>
-              <img src="./assets/pessoal-icone.png" alt="ícone pessoal" />
-              <p>Indicado para uso pessoal</p>
-            </th>
-            <th>
-              <h3>PROFISSIONAL</h3>
-              <img src="./assets/equipe-icone.png" alt="ícone equipe" />
-              <p>Indicado para profissionais de T.I</p>
-            </th>
-            <th>
-              <h3>EMPRESARIAL</h3>
-              <img src="./assets/empresa-icone.png" alt="ícone empresa" />
-              <p>Indicado para empresas</p>
-            </th>
-            <th>
-              <h3>BIG TECHS</h3>
-              <img src="./assets/big-tech.png" alt="ícone" />
-              <p>Indicado para grandes empresas</p>
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="linha-impar">
-            <td>1 usuário</td>
-            <td>10 usuários</td>
-            <td>25 usuários</td>
-            <td>50 usuários</td>
-          </tr>
-          <tr class="linha-par">
-            <td>1 Domínio Grátis</td>
-            <td>2 Domínios Grátis</td>
-            <td>2 Domínios Gratis</td>
-            <td>3 Domínios Grátis</td>
-          </tr>
-          <tr class="linha-impar">
-            <td>200GB SSD espaço</td>
-            <td>500GB SSD espaço</td>
-            <td>1TB SSD espaço</td>
-            <td>2TB SSD espaço</td>
-          </tr>
-          <tr class="linha-par">
-            <td>Ofertas especiais</td>
-            <td>Ofertas especiais</td>
-            <td>Ofertas especiais</td>
-            <td>Ofertas especiais</td>
-          </tr>
-          <tr class="linha-impar">
-            <td>Suporte Limitado</td>
-            <td>Suporte Ilimitado</td>
-            <td>Suporte Ilimitado</td>
-            <td>Suporte Ilimitado</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!-- Seção Segundo Anúncio -->
-    <div class="secao-segundo-anuncio">
-      <div class="container-segundo-anuncio limitar-secao">
+      </section>
+
+      <!-- Seção Informações -->
+      <section id="informacoes" class="secao-informacoes">
         <h2>
-          Mais de 20.000 pessoas confiam na Spark! Seja um deles você também!
+          Existem diversos serviços de hospedagem de sites. Porque você deve
+          <span>nos escolher?</span>
         </h2>
-        <a href="tabeladeprecos.html">
-          <img src="./assets/icone-foguete.png" alt="foguete" />
-          <span>TABELA DE PREÇOS</span>
-        </a>
-      </div>
-    </div>
+        <div class="container-informacoes limitar-secao">
+          <div>
+            <img src="./assets/icone-engrenagens.png" alt="ícone" />
+            <h3>Fácil de configurar</h3>
+            <p>
+              Facilmente configurável em plataformas CMS populares - Wordpress,
+              Joomia...
+            </p>
+          </div>
+          <div class="card2">
+            <img src="./assets/cloud-icone.png" alt="ícone" />
+            <h3>Servidores 100% Online</h3>
+            <p>
+              Facilmente configurável em plataformas CMS populares - Wordpress,
+              Joomia...
+            </p>
+          </div>
+          <div class="card3">
+            <img src="./assets/icone-suporte.png" alt="icone" />
+            <h3>Suporte 24/7</h3>
+            <p>
+              Facilmente configurável em plataformas CMS populares - Wordpress,
+              Joomia...
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção Planos -->
+      <section id="planos" class="secao-planos">
+        <h2>
+          Pague <span>somente</span> pelo que for usar. Sem cobranças
+          adicionais!
+        </h2>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <h3>PESSOAL</h3>
+                  <img src="./assets/pessoal-icone.png" alt="ícone pessoal" />
+                  <p>Indicado para uso pessoal</p>
+                </th>
+                <th>
+                  <h3>PROFISSIONAL</h3>
+                  <img src="./assets/equipe-icone.png" alt="ícone equipe" />
+                  <p>Indicado para profissionais de T.I</p>
+                </th>
+                <th>
+                  <h3>EMPRESARIAL</h3>
+                  <img src="./assets/empresa-icone.png" alt="ícone empresa" />
+                  <p>Indicado para empresas</p>
+                </th>
+                <th>
+                  <h3>BIG TECHS</h3>
+                  <img src="./assets/big-tech.png" alt="ícone" />
+                  <p>Indicado para grandes empresas</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="linha-impar">
+                <td>1 usuário</td>
+                <td>10 usuários</td>
+                <td>25 usuários</td>
+                <td>50 usuários</td>
+              </tr>
+              <tr class="linha-par">
+                <td>1 Domínio Grátis</td>
+                <td>2 Domínios Grátis</td>
+                <td>2 Domínios Gratis</td>
+                <td>3 Domínios Grátis</td>
+              </tr>
+              <tr class="linha-impar">
+                <td>200GB SSD espaço</td>
+                <td>500GB SSD espaço</td>
+                <td>1TB SSD espaço</td>
+                <td>2TB SSD espaço</td>
+              </tr>
+              <tr class="linha-par">
+                <td>Ofertas especiais</td>
+                <td>Ofertas especiais</td>
+                <td>Ofertas especiais</td>
+                <td>Ofertas especiais</td>
+              </tr>
+              <tr class="linha-impar">
+                <td>Suporte Limitado</td>
+                <td>Suporte Ilimitado</td>
+                <td>Suporte Ilimitado</td>
+                <td>Suporte Ilimitado</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Seção Segundo Anúncio -->
+      <section class="secao-segundo-anuncio">
+        <div class="container-segundo-anuncio limitar-secao">
+          <h2>
+            Mais de 20.000 pessoas confiam na Spark! Seja um deles você também!
+          </h2>
+          <a href="tabeladeprecos.html">
+            <img src="./assets/icone-foguete.png" alt="foguete" />
+            <span>TABELA DE PREÇOS</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
     <!-- Rodapé -->
-    <div>
+    <footer>
       <div class="rodape-logo">
         <img src="./assets/logo-icone.png" alt="logotipo" />
         <div>
@@ -194,6 +209,16 @@
       <div class="container-copyright">
         <p>Desenvolvido por <span>Flávio Félix</span></p>
       </div>
-    </div>
+    </footer>
+
+    <script>
+      // Hamburger menu functionality
+      document
+        .querySelector(".hamburger-menu")
+        .addEventListener("click", function () {
+          this.classList.toggle("active");
+          document.querySelector(".topo-links").classList.toggle("active");
+        });
+    </script>
   </body>
 </html>
